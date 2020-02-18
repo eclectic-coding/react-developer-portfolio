@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import AppRoutes from '../routes/AppRoutes'
 
-const App = () => {
-  return (
-    <div className="container">
-      <h1 className="title">Bulma</h1>
-      <p className="subtitle">
-        Modern CSS framework based on
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">
-          {' '}
-          Flexbox
-        </a>
-      </p>
-    </div>
-  )
+import Menubar from './Menubar'
+
+function App() {
+  const [user, setUser] = useState(null)
+  useEffect(() => {
+    fetch('https://gitconnected.com/v1/portfolio/eclectic-coding')
+      .then(res => res.json())
+      .then(user => {
+        setUser(user)
+      })
+  }, [])
+
+  if (!user) {
+    return <div />
+  }
+
+  return <AppRoutes user={user} />
 }
 
 export default App
