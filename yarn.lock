@@ -1684,6 +1684,16 @@ browserslist@^4.8.3, browserslist@^4.8.5:
     electron-to-chromium "^1.3.341"
     node-releases "^1.1.47"
 
+bulma-helpers@^0.3.10:
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/bulma-helpers/-/bulma-helpers-0.3.10.tgz#a0ab518b44343bb708339ade721f7355d159a547"
+  integrity sha512-dgJB8LreVzAHJfcbYUUONA0oo/cdWxhFt1b/DlmTLaukYTjkdM5GP9A7DRyssjuRhcozIqzTm//BLLR313Xw3Q==
+
+bulma@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.8.0.tgz#ac1606431703a4761b18a4a2d5cc1fa864a2aece"
+  integrity sha512-nhf3rGyiZh/VM7FrSJ/5KeLlfaFkXz0nYcXriynfPH4vVpnxnqyEwaNGdNCVzHyyCA3cHgkQAMpdF/SFbFGZfA==
+
 callsites@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
