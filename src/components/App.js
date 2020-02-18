@@ -2,9 +2,15 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello from App.js</h1>
-      <p>Using ParcelJS Bundler</p>
+    <div className="container">
+      <h1 className="title">Bulma</h1>
+      <p className="subtitle">
+        Modern CSS framework based on
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">
+          {' '}
+          Flexbox
+        </a>
+      </p>
     </div>
   )
 }
