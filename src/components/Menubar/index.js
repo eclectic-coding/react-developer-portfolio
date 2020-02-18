@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from '@reach/router'
+// Components
+import menuLinks from './menuLinks'
+
 // Styling Component
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
-
 
 const Menubar = ({ user }) => {
   return (
@@ -14,7 +16,6 @@ const Menubar = ({ user }) => {
             <FontAwesomeIcon
               icon={faAngleDoubleRight}
               className="has-text-primary is-size-2"
-              // style={{ fontSize: '2em' }}
             />
           </Link>
           <span className="navbar-burger burger" data-target="navbarMenu">
@@ -25,12 +26,11 @@ const Menubar = ({ user }) => {
         </div>
         <div id="navbarMenu" className="navbar-menu">
           <div className="navbar-end">
-            <Link to="/" className="navbar-item is-active">
-              Home
-            </Link>
-            <Link to="/projects" className="navbar-item">
-              Projects
-            </Link>
+            {menuLinks.map(item => (
+              <Link key={item.id} to={item.link} className="navbar-item">
+                {item.name}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
