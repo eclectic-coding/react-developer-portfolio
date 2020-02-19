@@ -1,0 +1,268 @@
+{
+  "basics": {
+    "name": "Chuck ",
+    "picture": "https://avatars1.githubusercontent.com/u/13651291?v=4",
+    "label": "@eclectic-coding",
+    "headline": "#gatsbyjs enthusiast and long history with CMS' (Joomla, WordPress), although mostly GatsbyJS/React and Vuejs. ",
+    "summary": "A Fullstack developer with over fifteen years experience in frontend design platforms, a passion for learning, and a desire to partner with companies with a passion to build nurturing communities.\n",
+    "website": "www.chucksmith.dev",
+    "blog": "www.eclecticsaddlebag.com",
+    "yearsOfExperience": 2,
+    "id": "b2249182-8adb-4634-90e8-b01051e4cb90",
+    "username": "eclectic-coding",
+    "karma": 21,
+    "email": null,
+    "region": "Starbucks in Eastern North Carolina",
+    "location": {},
+    "phone": null,
+    "followers": 17,
+    "following": 38,
+    "profiles": [
+      {
+        "network": "gitconnected",
+        "username": "eclectic-coding",
+        "url": "https://gitconnected.com/eclectic-coding"
+      },
+      {
+        "network": "GitHub",
+        "username": "eclectic-coding",
+        "url": "https://github.com/eclectic-coding"
+      },
+      {
+        "network": "Twitter",
+        "url": "https://twitter.com/EclecticCoding",
+        "username": "EclecticCoding"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/chuck-smith-a64282196/",
+        "username": "chuck-smith-a64282196"
+      },
+      {
+        "network": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/9878071/c-smith",
+        "username": "c-smith"
+      },
+      {
+        "network": "Medium",
+        "url": "https://medium.com/@EclecticCoder",
+        "username": "@EclecticCoder"
+      },
+      {
+        "network": "Vimeo",
+        "url": "https://vimeo.com/user75258072",
+        "username": "user75258072"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "rating": 3,
+      "yearsOfExperience": 1,
+      "keywords": []
+    },
+    {
+      "name": "Gatsby",
+      "level": "Intermediate",
+      "rating": 3,
+      "yearsOfExperience": 1,
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "Expert",
+      "rating": 5,
+      "yearsOfExperience": 25,
+      "keywords": []
+    },
+    {
+      "name": "CSS/SCSS",
+      "level": "Advanced",
+      "rating": 4,
+      "yearsOfExperience": 5,
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "rating": 3,
+      "yearsOfExperience": 1,
+      "keywords": []
+    },
+    {
+      "name": "Ruby/Rails",
+      "level": "Intermediate",
+      "rating": 3,
+      "yearsOfExperience": 1,
+      "keywords": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "sinatra todo app",
+      "displayName": "Sinatra TODO App",
+      "summary": "The standard TODO App",
+      "website": "https://todo-app-sinatra.herokuapp.com/",
+      "githubUrl": "https://github.com/eclectic-coding/sinatra-todo-app",
+      "primaryLanguage": "",
+      "languages": [
+        "Ruby",
+        "Sinatra"
+      ],
+      "libraries": [
+        "Bootstrap"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "url": "https://project-images.gitconnectedcontent.com/d98a31d3-ce27-4c4b-876e-02a616bd5536-micro",
+              "size": 1337,
+              "width": 32,
+              "height": 21
+            },
+            "thumbnail": {
+              "url": "https://project-images.gitconnectedcontent.com/d98a31d3-ce27-4c4b-876e-02a616bd5536-thumbnail",
+              "size": 12479,
+              "width": 224,
+              "height": 148
+            },
+            "mobile": {
+              "url": "https://project-images.gitconnectedcontent.com/d98a31d3-ce27-4c4b-876e-02a616bd5536-mobile",
+              "size": 62731,
+              "width": 600,
+              "height": 397
+            },
+            "desktop": {
+              "url": "https://project-images.gitconnectedcontent.com/d98a31d3-ce27-4c4b-876e-02a616bd5536-desktop",
+              "size": 140297,
+              "width": 950,
+              "height": 628
+            }
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://vimeo.com/369392384",
+          "source": "vimeo",
+          "sourceId": "369392384"
+        }
+      ]
+    },
+    {
+      "name": "rails movie browser app",
+      "displayName": "Rails Movie Browser App",
+      "summary": "A browser to search and view movies. ",
+      "website": "",
+      "githubUrl": "https://github.com/eclectic-coding/rails-movie-browser",
+      "primaryLanguage": "",
+      "languages": [
+        "Ruby",
+        "Rails"
+      ],
+      "libraries": [
+        "Movie API",
+        "TailwindCSS",
+        "Devise OAuth"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "url": "https://project-images.gitconnectedcontent.com/c68e0fe2-d510-42bd-a003-0c436a97e327-micro",
+              "size": 1352,
+              "width": 32,
+              "height": 17
+            },
+            "thumbnail": {
+              "url": "https://project-images.gitconnectedcontent.com/c68e0fe2-d510-42bd-a003-0c436a97e327-thumbnail",
+              "size": 17653,
+              "width": 224,
+              "height": 120
+            },
+            "mobile": {
+              "url": "https://project-images.gitconnectedcontent.com/c68e0fe2-d510-42bd-a003-0c436a97e327-mobile",
+              "size": 100603,
+              "width": 600,
+              "height": 323
+            },
+            "desktop": {
+              "url": "https://project-images.gitconnectedcontent.com/c68e0fe2-d510-42bd-a003-0c436a97e327-desktop",
+              "size": 332914,
+              "width": 1200,
+              "height": 645
+            }
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://vimeo.com/378181978",
+          "source": "vimeo",
+          "sourceId": "378181978"
+        }
+      ]
+    }
+  ],
+  "work": [],
+  "publications": [],
+  "education": [
+    {
+      "institution": "Flatiron School",
+      "area": "Software Engineering",
+      "studyType": "",
+      "startDate": "2019-08-01",
+      "endDate": "2020-02-01",
+      "start": {
+        "year": 2019,
+        "month": 8
+      },
+      "end": {
+        "year": 2020,
+        "month": 2
+      },
+      "description": "Software engineering bootcamp that taught me Ruby, Sinatra MVC, Ruby on Rails, JavaScript, React and Redux. ",
+      "activities": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Mount Olive",
+      "area": "Religion and Criminal Justice",
+      "studyType": "Bachelor of Science",
+      "startDate": "2012-08-01",
+      "endDate": "2016-05-01",
+      "start": {
+        "year": 2012,
+        "month": 8
+      },
+      "end": {
+        "year": 2016,
+        "month": 5
+      },
+      "description": "",
+      "activities": "",
+      "gpa": "3.31",
+      "courses": []
+    }
+  ],
+  "volunteer": [],
+  "awards": [
+    {
+      "title": "Leadership Fellows",
+      "summary": "Selected as one of ten clergy out of 800 churches to attend the Leadership Fellows program, learning about leadership, changes, and collaboration. ",
+      "awarder": "Methodist Church",
+      "date": "2017-01-01",
+      "fullDate": {
+        "year": 2017,
+        "month": 1
+      }
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
