@@ -3,10 +3,10 @@ import Menubar from './Menubar'
 
 const Layout = ({ children }) => {
   return (
-    <div className="container">
+    <main className="container">
       <Menubar />
       <div>{children}</div>
-    </div>
+    </main>
   )
 }
 

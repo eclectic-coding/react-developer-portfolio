@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import AppRoutes from '../routes/AppRoutes'
 
-import Menubar from './Menubar'
-
 function App() {
   const [user, setUser] = useState(null)
   useEffect(() => {

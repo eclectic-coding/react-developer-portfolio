@@ -1,45 +1,61 @@
 import React from 'react'
 import Layout from '../components/Layout'
-// import ProjectCard from '../components/ProjectCard'
+import Truncate from 'react-truncate'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faVimeo } from '@fortawesome/free-brands-svg-icons'
 
 const Projects = ({ user }) => {
   return (
     <Layout user={user}>
       <div className="section">
-        <div className="row columns">
+        <div className="columns is-multiline">
           {user.projects.map((project, i) => (
             <div className="column is-one-third">
               <div key={i} className="card large">
                 <div className="card-image">
                   <figure className="image">
-                    <img
-                      src={user.projects[i].images[0].resolutions.desktop.url}
-                      alt={project.name}
-                    />
+                    <a href={project.githubUrl}>
+                      <img
+                        src={user.projects[i].images[0].resolutions.desktop.url}
+                        alt={project.name}
+                      />
+                    </a>
                   </figure>
                 </div>
                 <div className="card-content">
                   <div className="media">
-                    <div className="media-left">
-                      <figure className="image is-96x96">
-                        <img src={user.basics.picture} alt="Image" />
-                      </figure>
-                    </div>
                     <div className="media-content">
-                      <p className="title is-4 no-padding">{project.displayName}</p>
-                      <p>
-                        <span className="title is-6">
-                          <a href={project.githubUrl}>GitHub</a>
-                        </span>
+                      <p className="title is-4 no-padding">
+                        <a href={project.githubUrl}>{project.displayName}</a>
                       </p>
-                      <p className="subtitle is-6">Software Developer</p>
+                      <div className="has-text-centered">
+                        <a href={project.githubUrl} target="_blank">
+                          <FontAwesomeIcon
+                            className="card__icon github"
+                            icon={faGithub}
+                          />
+                        </a>
+                        {project.videos[0] !== undefined ? (
+                          <a href={project.videos[0].url} target="_blank">
+                            <FontAwesomeIcon
+                              className="card__icon vimeo"
+                              icon={faVimeo}
+                            />
+                          </a>
+                        ) : null}
+                      </div>
                     </div>
                   </div>
                   <div className="content">
-                    {project.summary}
-                    <div className="background-icon">
-                      <span className="icon-twitter"></span>
-                    </div>
+                    <Truncate lines={4}>{project.summary}</Truncate>
+                  </div>
+                  <div>
+                    {project.languages.map((language, i) => (
+                      <span key={i} className="tag is-primary has-margin-right-10">
+                        {language}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>

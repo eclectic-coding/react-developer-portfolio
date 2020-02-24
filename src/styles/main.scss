@@ -3,6 +3,28 @@
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
+.card__icon {
+  margin-right: 1rem;
+  color: rgba(black, 0.8);
+  font-size: 1.75rem;
+}
+
+.github {
+  color: #211F1F;
+
+  &:hover {
+    color: lighten(#211F1F, 25%)
+  }
+}
+
+.vimeo {
+  color: #1ab7ea;
+
+  &:hover {
+    color: darken(#1ab7ea, 15%)
+  }
+}
+
 // Set your brand colors
 //$purple: #8a4d76;
 //$pink: #fa7c91;
