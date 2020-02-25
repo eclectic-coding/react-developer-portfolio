@@ -26,26 +26,30 @@
 }
 
 // Set your brand colors
-//$purple: #8a4d76;
-//$pink: #fa7c91;
-//$brown: #757763;
-//$beige-light: #d0d1cd;
-//$beige-lighter: #eff0eb;
+$brand-primary: hsla(202, 66%, 39%, 1);
+$brand-info: hsl(204, 71%, 53%);
+$brand-success: hsla(164, 95%, 43%, 1);
+$brand-warning: hsla(42, 100%, 70%, 1);
+$brand-danger: hsla(346, 84%, 61%, 1);
 
-// Update Bulma's global variables
-//$family-sans-serif: 'Nunito', sans-serif;
-//$grey-dark: $brown;
-//$grey-light: $beige-light;
-//$primary: $purple;
-//$link: $pink;
-//$widescreen-enabled: false;
-//$fullhd-enabled: false;
+// Bulma variables - https://bulma.io/documentation/customize/variables/
 
-// Update some of Bulma's component variables
-//$body-background-color: $beige-lighter;
-//$control-border-width: 2px;
-//$input-border-color: transparent;
-//$input-shadow: none;
+// Update Bulma's global derived variables
+$primary: $brand-primary;
+//$info: lighten($brand-success, 25%);
+$success: $brand-success;
+$warning: $brand-warning;
+$danger: $brand-danger;
+$link: $brand-primary;
+$link-visited: hsl(271, 100%, 71%);
+//$link-hover: darken($brilliant_azure, 75%);
+$link-focus: hsl(0, 0%, 21%);
+$link-active: hsl(0, 0%, 21%);
+
+// Generic variables
+$body-background-color: hsl(0, 0%, 97%) ;
+//$body-family: ;
+
 
 // Import only what you need from Bulma
 @import "~bulma/sass/utilities/_all";

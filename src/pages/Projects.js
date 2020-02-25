@@ -4,6 +4,7 @@ import Truncate from 'react-truncate'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faVimeo } from '@fortawesome/free-brands-svg-icons'
+import { faRss } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = ({ user }) => {
   return (
@@ -44,6 +45,11 @@ const Projects = ({ user }) => {
                             />
                           </a>
                         ) : null}
+                        {project.website !== '' ? (
+                          <a href={project.website} target="_blank">
+                            <FontAwesomeIcon className="card__icon has-text-warning" icon={faRss} />
+                          </a>
+                        ) : null}
                       </div>
                     </div>
                   </div>
@@ -52,7 +58,10 @@ const Projects = ({ user }) => {
                   </div>
                   <div>
                     {project.languages.map((language, i) => (
-                      <span key={i} className="tag is-primary has-margin-right-10">
+                      <span
+                        key={i}
+                        className="tag is-warning is-light has-margin-right-10"
+                      >
                         {language}
                       </span>
                     ))}
