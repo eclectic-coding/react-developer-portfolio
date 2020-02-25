@@ -8,7 +8,7 @@ import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 
 const Menubar = ({ user }) => {
   return (
-    <nav className="navbar">
+    <nav className="navbar bg-white">
       <div className="container">
         <div className="navbar-brand title">
           <Link to="/" className="navbar-item">

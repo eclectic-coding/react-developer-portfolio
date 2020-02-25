@@ -1,11 +1,13 @@
 import React from 'react'
 import Menubar from './Menubar'
+import Footer from './Footer'
 
 const Layout = ({ children }) => {
   return (
-    <main className="container">
+    <main>
       <Menubar />
-      <div>{children}</div>
+      <div className="container">{children}</div>
+      <Footer />
     </main>
   )
 }

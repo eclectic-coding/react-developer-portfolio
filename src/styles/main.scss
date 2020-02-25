@@ -25,6 +25,56 @@
   }
 }
 
+footer {
+  background-color: #222831;
+  padding: 1rem 0;
+  color: hsl(0, 0%, 97%);
+
+  p, strong {
+    color: hsl(0, 0%, 97%)
+  }
+
+  a:hover {
+    color: crimson;
+  }
+}
+
+.soc {
+  margin: 0 0.75rem;
+
+  &__dev {
+    color: white;
+
+    &:hover {
+      color: darken(white, 25%);
+    }
+  }
+
+  &__github {
+    color: white;
+
+    &:hover {
+      color: #c9510c;
+    }
+  }
+
+  &__linkedin {
+    color: white;
+
+    &:hover {
+      color: #006db3;
+    }
+  }
+
+  &__twitter {
+    color: white;
+
+    &:hover {
+      color: #00acee;
+    }
+  }
+}
+
 // Set your brand colors
 $brand-primary: hsla(202, 66%, 39%, 1);
 $brand-info: hsl(204, 71%, 53%);
@@ -42,12 +92,12 @@ $warning: $brand-warning;
 $danger: $brand-danger;
 $link: $brand-primary;
 $link-visited: hsl(271, 100%, 71%);
-//$link-hover: darken($brilliant_azure, 75%);
+$link-hover: $brand-danger;
 $link-focus: hsl(0, 0%, 21%);
 $link-active: hsl(0, 0%, 21%);
 
 // Generic variables
-$body-background-color: hsl(0, 0%, 97%) ;
+$body-background-color: hsl(0, 0%, 97%);
 //$body-family: ;
 
 
