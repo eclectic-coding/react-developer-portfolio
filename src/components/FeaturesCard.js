@@ -3,7 +3,7 @@ import Truncate from 'react-truncate'
 
 const FeaturesCard = ({ title, image, alt, description }) => {
   return (
-    <div className="card is-shady">
+    <div className="card is-shady card__effect">
       <div className="card-image">
         <figure className="image">
           <img src={image} alt={alt} />
