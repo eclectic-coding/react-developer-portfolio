@@ -1,7 +1,7 @@
 import React from 'react'
-import experienceImg from '../images/experience.jpg'
+import Truncate from 'react-truncate'
 
-const FeaturesCard = ({ title, image, alt }) => {
+const FeaturesCard = ({ title, image, alt, description }) => {
   return (
     <div className="card is-shady">
       <div className="card-image">
@@ -12,7 +12,9 @@ const FeaturesCard = ({ title, image, alt }) => {
       <div className="card-content">
         <div className="content">
           <h3>{title}</h3>
-          <p>Coming soon... </p>
+          <p>
+            <Truncate lines={4}>{description}</Truncate>
+          </p>
         </div>
       </div>
     </div>

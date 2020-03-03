@@ -16,7 +16,7 @@ const Features = props => {
               title="Projects"
               image={projectImg}
               alt="Project image."
-              description="Come checkout my latest projects."
+              description="Check out my latest design projects with links to the open source repositories. I welcome feedback and pull request. "
             />
           </Link>
         </div>
