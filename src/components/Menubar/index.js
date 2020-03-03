@@ -6,17 +6,24 @@ import menuLinks from './menuLinks'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 
-const Menubar = ({ user }) => {
+const Menubar = ({ location }) => {
   return (
     <nav className="navbar bg-white">
       <div className="container">
         <div className="navbar-brand title">
-          <Link to="/" className="navbar-item">
+          <Link
+            to="/"
+            className={location.pathname === '/' ? 'navbar-item text-warning' : null}
+            aria-label="Chuck's developer portfolio site."
+          >
             <FontAwesomeIcon
               icon={faAngleDoubleRight}
-              className="has-text-primary is-size-2 has-margin-right-15"
+              className={
+                location.pathname === '/'
+                  ? 'has-text-danger is-size-2 has-margin-right-15'
+                  : 'has-text-primary is-size-2 has-margin-right-15'
+              }
             />
-            {/*<h1 className="title is-size-4 has-margin-left-20">Chuck Smith</h1>*/}
           </Link>
           <span className="navbar-burger burger" data-target="navbarMenu">
             <span></span>
@@ -27,7 +34,12 @@ const Menubar = ({ user }) => {
         <div id="navbarMenu" className="navbar-menu">
           <div className="navbar-end">
             {menuLinks.map(item => (
-              <Link key={item.id} to={item.link} className="navbar-item">
+              <Link
+                key={item.id}
+                to={item.link}
+                className="navbar-item"
+                aria-label={item.name}
+              >
                 {item.name}
               </Link>
             ))}

@@ -1,15 +1,19 @@
 import React from 'react'
-import Layout from '../components/Layout'
+// import Layout from '../components/Layout'
 import Truncate from 'react-truncate'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faVimeo } from '@fortawesome/free-brands-svg-icons'
 import { faRss } from '@fortawesome/free-solid-svg-icons'
+import Menubar from '../components/Menubar'
+import Footer from '../components/Footer'
 
-const Projects = ({ user }) => {
+const Projects = ({ user, location }) => {
+  console.log(location)
   return (
-    <Layout user={user}>
-      <div className="section">
+    <>
+      <Menubar location={location} />
+      <div className="container section">
         <div className="columns is-multiline">
           {user.projects.map((project, i) => (
             <div className="column is-one-third">
@@ -47,7 +51,10 @@ const Projects = ({ user }) => {
                         ) : null}
                         {project.website !== '' ? (
                           <a href={project.website} target="_blank">
-                            <FontAwesomeIcon className="card__icon has-text-warning" icon={faRss} />
+                            <FontAwesomeIcon
+                              className="card__icon has-text-warning"
+                              icon={faRss}
+                            />
                           </a>
                         ) : null}
                       </div>
@@ -72,7 +79,8 @@ const Projects = ({ user }) => {
           ))}
         </div>
       </div>
-    </Layout>
+      <Footer />
+    </>
   )
 }
 

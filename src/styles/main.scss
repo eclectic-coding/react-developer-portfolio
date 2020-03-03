@@ -34,6 +34,10 @@ footer {
     color: hsl(0, 0%, 97%)
   }
 
+  a {
+    color: cyan;
+  }
+
   a:hover {
     color: crimson;
   }
@@ -90,7 +94,7 @@ $primary: $brand-primary;
 $success: $brand-success;
 $warning: $brand-warning;
 $danger: $brand-danger;
-$link: $brand-primary;
+$link: $brand-info;
 $link-visited: hsl(271, 100%, 71%);
 $link-hover: $brand-danger;
 $link-focus: hsl(0, 0%, 21%);

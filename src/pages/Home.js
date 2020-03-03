@@ -1,13 +1,18 @@
 import React from 'react'
-import Layout from '../components/Layout'
+// Components
+import Footer from '../components/Footer'
+import Hero from '../components/Hero'
+import CallToAction from '../components/CallToAction'
+import Features from '../components/Features'
 
-const Home = () => {
+const Home = ({ location }) => {
   return (
-    <Layout>
-      <div className="container">
-        <h2 className="title">Welcome to Home Component</h2>
-      </div>
-    </Layout>
+    <main className="has-page-height-desktop">
+      <Hero location={location} />
+      <CallToAction />
+      <Features />
+      <Footer />
+    </main>
   )
 }
 
