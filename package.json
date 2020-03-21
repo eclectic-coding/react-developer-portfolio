@@ -46,12 +46,12 @@
     "react-truncate": "^2.4.0"
   },
   "devDependencies": {
-    "@babel/core": "7.8.7",
-    "@babel/preset-env": "7.8.7",
-    "@babel/preset-react": "7.8.3",
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.1",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
-    "babel-loader": "8.0.6",
+    "babel-loader": "8.1.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
     "cssnano": "4.1.10",
