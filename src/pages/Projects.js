@@ -8,7 +8,6 @@ import Menubar from '../components/Menubar'
 import Footer from '../components/Footer'
 
 const Projects = ({ user, location }) => {
-  console.log(location)
   return (
     <>
       <Menubar location={location} />

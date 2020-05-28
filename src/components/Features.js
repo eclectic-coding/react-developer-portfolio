@@ -35,7 +35,7 @@ const Features = props => {
             title="Education"
             image={educationImg}
             alt="Training and experience."
-            description="Come checkout my latest projects."
+            description="Coming soon ...."
           />
         </div>
       </div>

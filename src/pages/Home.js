@@ -1,7 +1,7 @@
 import React from 'react'
 // Components
-import Footer from '../components/Footer'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 import CallToAction from '../components/CallToAction'
 import Features from '../components/Features'
 
