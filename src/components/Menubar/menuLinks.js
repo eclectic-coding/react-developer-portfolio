@@ -8,11 +8,6 @@ const menuLinks = [
     id: 2,
     name: 'Projects',
     link: '/projects'
-  },
-  {
-    id: 3,
-    name: 'Education',
-    link: '/education'
   }
 ]
 
