@@ -7,8 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 
 const Menubar = ({ location }) => {
+  const [isActive, setisActive] = React.useState(false)
+
   return (
-    <nav className="navbar bg-white">
+    <nav className="navbar bg-white" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand title">
           <Link
@@ -25,15 +27,27 @@ const Menubar = ({ location }) => {
               }
             />
           </Link>
-          <span className="navbar-burger burger" data-target="navbarMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
+          <a
+            onClick={() => {
+              setisActive(!isActive)
+            }}
+            role="button"
+            className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-        <div id="navbarMenu" className="navbar-menu">
+        <div
+          id="navbarBasicExample"
+          className={`navbar-menu ${isActive ? 'is-active' : ''}`}
+        >
           <div className="navbar-end">
-            {menuLinks.map(item => (
+            {menuLinks.map((item) => (
               <Link
                 key={item.id}
                 to={item.link}

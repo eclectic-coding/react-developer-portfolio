@@ -6,7 +6,7 @@ import educationImg from '../images/education.jpg'
 import experienceImg from '../images/experience.jpg'
 import FeaturesCard from './FeaturesCard'
 
-const Features = props => {
+const Features = (props) => {
   return (
     <section className="container">
       <div className="columns features has-padding-top-40 has-padding-bottom-40">

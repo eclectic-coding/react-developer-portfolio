@@ -6,6 +6,7 @@ import { faGithub, faVimeo } from '@fortawesome/free-brands-svg-icons'
 import { faRss } from '@fortawesome/free-solid-svg-icons'
 import Menubar from '../components/Menubar'
 import Footer from '../components/Footer'
+// import FeaturesCard from '../components/FeaturesCard';
 
 const Projects = ({ user, location }) => {
   return (
@@ -14,8 +15,8 @@ const Projects = ({ user, location }) => {
       <div className="container section">
         <div className="columns is-multiline">
           {user.projects.map((project, i) => (
-            <div className="column is-one-third">
-              <div key={i} className="card large">
+            <div key={i} className="column is-one-third">
+              <div className="card large">
                 <div className="card-image">
                   <figure className="image">
                     <a href={project.githubUrl}>

@@ -31,8 +31,8 @@ const Footer = () => {
             </a>
           </div>
           <p>
-            <a href="mailto:chuck@eclecticsaddlebag.com">Chuck Smith</a>, your local passionate developer.
-            All source code is licensed{' '}
+            <a href="mailto:chuck@eclecticsaddlebag.com">Chuck Smith</a>, your local
+            passionate developer. All source code is licensed{' '}
             <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
           </p>
         </div>
