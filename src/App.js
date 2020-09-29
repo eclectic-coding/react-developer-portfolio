@@ -5,8 +5,8 @@ function App() {
   const [user, setUser] = useState(null)
   useEffect(() => {
     fetch('https://gitconnected.com/v1/portfolio/eclectic-coding')
-      .then(res => res.json())
-      .then(user => {
+      .then((res) => res.json())
+      .then((user) => {
         setUser(user)
       })
   }, [])
