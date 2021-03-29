@@ -69,6 +69,7 @@
     "pretty-quick": "3.1.0"
   },
   "resolutions": {
-    "husky": "4.3.8"
+    "husky": "4.3.8",
+    "parcel": "1.12.3"
   }
 }
