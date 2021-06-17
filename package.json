@@ -66,7 +66,7 @@
     "husky": "4.3.8",
     "lint-staged": "11.0.0",
     "prettier": "2.3.1",
-    "pretty-quick": "3.1.0"
+    "pretty-quick": "3.1.1"
   },
   "resolutions": {
     "husky": "4.3.8",
