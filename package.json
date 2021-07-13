@@ -63,13 +63,13 @@
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.24.0",
-    "husky": "4.3.8",
+    "husky": "7.0.1",
     "lint-staged": "11.0.1",
     "prettier": "2.3.2",
     "pretty-quick": "3.1.1"
   },
   "resolutions": {
-    "husky": "4.3.8",
+    "husky": "7.0.1",
     "parcel": "1.12.4"
   }
 }
