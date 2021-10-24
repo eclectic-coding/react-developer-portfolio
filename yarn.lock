@@ -3671,10 +3671,10 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-bulma-helpers@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/bulma-helpers/-/bulma-helpers-0.4.0.tgz#f437ca91f6e2a50d438e18bb589803da8b3ae83f"
-  integrity sha512-N1+hW7tzEb8DaWLbBXhqM9zYay18c99Zw2WtzBiovXPWv/BtSDUVk0IOqmPT+4p6JjFFc1filZ4IY1mLmh+hcA==
+bulma-helpers@^0.4.1:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/bulma-helpers/-/bulma-helpers-0.4.2.tgz#48ff73aab48155522485b80936c014650557c195"
+  integrity sha512-EAzZHoRbwujCsmtrBWzjI8087at0tIuk58HoR/j5R7n9iXVRJumRUWtRCO/J4Ft+fuxGoV9oZSISLC/neqrnjw==
 
 bulma@^0.9.3:
   version "0.9.3"
