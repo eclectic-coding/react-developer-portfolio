@@ -54,7 +54,7 @@
     "babel-loader": "8.2.3",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
-    "cssnano": "5.1.0",
+    "cssnano": "5.1.1",
     "eslint": "8.10.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
