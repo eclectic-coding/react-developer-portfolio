@@ -40,7 +40,7 @@
     "bulma": "^0.9.4",
     "bulma-helpers": "^0.4.3",
     "node-sass": "^4.14.1",
-    "parcel": "1.12.4",
+    "parcel": "2.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-truncate": "^2.4.0"
@@ -70,6 +70,6 @@
   },
   "resolutions": {
     "husky": "4.3.8",
-    "parcel": "1.12.4"
+    "parcel": "2.8.3"
   }
 }
